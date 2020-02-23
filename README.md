@@ -1,2 +1,0 @@
-# ashagoweb
-ashago web site 
