@@ -1,11 +1,5 @@
  <template>
   <div id="search_input">
-     <a-row>
-      <a-col :span="24">
-        <div style="height:3px;background:#fff;">
-        </div>
-      </a-col>
-    </a-row>
     <a-row>
       <a-col :span="4">
         <div style="height:40px;background:#fff;"></div>
@@ -41,7 +35,7 @@ export default {
       this.$router.push({
         path: "/search_result",
         query: { 
-          query_string: value,
+          q: value,
           t:Date.now()
          }
       });

@@ -1,5 +1,5 @@
 <template>
-  <a-locale-provider :locale="en_GB">
+  <a-config-provider :locale="en_GB">
     <div id="app">
       <div>
         <!-- 网站头部 -->
@@ -8,7 +8,7 @@
             <HomeBanner></HomeBanner>
           </a-col>
         </a-row>
-        <a-affix :offsetTop="this.top">
+        <a-affix :offsetTop="0">
           <a-row>
             <a-col :span="14">
               <MainNavigator></MainNavigator>
@@ -72,7 +72,7 @@
         </a-row>
       </div>
     </div>
-  </a-locale-provider>
+  </a-config-provider>
 </template>
 
 <script>

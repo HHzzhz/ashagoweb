@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-menu v-model="current" mode="horizontal" theme="light">
+    <a-menu mode="horizontal" theme="light">
       <a-menu-item key="home"><router-link to="/home">Home</router-link></a-menu-item>
       <a-sub-menu>
         <span slot="title" class="submenu-title-wrapper">

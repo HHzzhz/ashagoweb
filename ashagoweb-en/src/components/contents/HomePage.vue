@@ -175,7 +175,7 @@
       </a-col>
       <a-col :span="2"></a-col>
     </a-row>
-
+<!-- 
     <a-row>
       <a-col :span="24">
         <div style="height:240px"></div>
@@ -228,14 +228,20 @@
         </div>
       </a-col>
       <a-col :span="3"></a-col>
-    </a-row>
+    </a-row> -->
   </div>
 </template>
 
 <script>
 import SearchInput from "../../components/general/SearchInput.vue";
+// import Axios from "axios";
 
 export default {
+  data() {
+    return {
+      
+    }
+  },
   components: {
     SearchInput
   },
